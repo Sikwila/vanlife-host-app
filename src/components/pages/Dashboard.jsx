@@ -10,20 +10,20 @@ export const Dashboard = () =>{
             <h2 className="welcome-h1">Welcome!</h2>
             <div className="income-details1">
               <p>Income last 30 days</p>
-              <p><a href="" className="linkto-details">Details</a></p>
+              <p className="link-p-tag"><a href="" className="linkto-details">Details</a></p>
             </div>
             <h1 className="welcome-h2">$2,260</h1>
           </div>
           <div className="sub-host-top-text">
             <h3 className="left">Review score  5.0/5</h3>
-            <p className="right"><a href="" className="linkto-details">Details</a></p>
+            <p className="right link-p-tag"><a href="" className="linkto-details">Details</a></p>
           </div>
         </div>
 
         <div className="vans-lists">
           <div className="income-details1 sub-text3">
             <h3>Your listed vans</h3>
-            <p><a href="" className="linkto-details">View all</a></p>
+            <p className="link-p-tag"><a href="" className="linkto-details">View all</a></p>
           </div>
 
 

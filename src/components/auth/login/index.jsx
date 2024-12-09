@@ -37,16 +37,18 @@ const Login = () => {
       <h1>Sign in to your account</h1>
       <div className="form-body">
         <form onSubmit={onSubmit}>
+          <div className="inputfields">
           <div className="username-div">
             <input type="text" placeholder="Email address" value={email} onChange={(e) => setEmail(e.target.value)} />
           </div>
           <div className="password-div">
             <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
           </div>
+          </div>
           <button type="submit" disabled={isSigningIn}>Sign in</button>
           {errorMessage && <p>{errorMessage}</p>}
           <p>Don’t have an account? <a href="/register">Create one now</a></p>
-        </form>//src/components/auth/login/index.jsx
+        </form>
       </div>
     </div>
   );
